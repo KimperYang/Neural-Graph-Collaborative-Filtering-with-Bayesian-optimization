@@ -1,0 +1,1 @@
+This is COMP576 course project created by Jingbo Yang and Junhao Zhang.
