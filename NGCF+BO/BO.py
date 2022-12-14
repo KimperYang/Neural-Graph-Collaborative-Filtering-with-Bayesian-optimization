@@ -109,7 +109,7 @@ train_X=[[0.0005,1e-5,0.1,0.1,0.1,0.1],
         [0.001,1,0.1,0.1,0.1,0.1],
         [0.0025,1e-5,0.2,0.1,0.1,0.1]]
 # run NGCF:
-# python NGCF.py --dataset gowalla --regs trainX[1] --embed_size 64 --layer_size [64,64,64] --lr trainX[0] --save_flag 1 
+# python NGCF.py --dataset amazon-book --regs trainX[1] --embed_size 64 --layer_size [64,64,64] --lr trainX[0] --save_flag 1 
 # --pretain 0 --batch_size1024 --epoch 200 --verbose 50 --node_dropout trainX[2] --mess_dropout [trainX[3],trainX[4],trainX[5]]
 
 train_y = [0.8444,0.7986,0.8127] #type in the result of NGCF (1-recall@20)
